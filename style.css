@@ -1,0 +1,86 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+
+canvas {
+  border: 1px solid #000;
+  border-radius: 2%;
+}
+
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+div.head {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.btns {
+  margin-top: 10px;
+}
+
+.global {
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+
+#mensagem {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s ease;
+  opacity: 0;
+  width: 14rem;
+}
+
+#signature {
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#send {
+  display: inline-block;
+  background-color: rgb(238, 238, 238);
+  color: rgb(119, 119, 119);
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 1.4%;
+}
+
+#close {
+  all: unset;
+}
+
+#inputDigital {
+  width: 500px;
+  text-align: center;
+}
+
+#active-nav {
+  display: inline;
+}
+
+#active {
+  margin: 2rem 0 2rem 0;
+}
+
+#btn1,
+#btn2 {
+  background-color: gray;
+  border: none;
+}
