@@ -38,6 +38,7 @@ toggleAssinatura.addEventListener('change', function () {
     if (assinaturaAtiva = this.checked){
         const input = document.getElementById('inputDigital');
         input.disabled = true;
+        limpar()
     }
     else{
         const input = document.getElementById('inputDigital');
@@ -151,4 +152,10 @@ function msgClose() {
     del.style.opacity = '0';
     const sus = document.getElementsByClassName('sus')[0];
     sus.style.opacity = '0';
+}
+
+function getValue(){
+    const name = document.getElementById('nomeCompleto')
+    let valor = name.value
+    alert(valor)
 }
